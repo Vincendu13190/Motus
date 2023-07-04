@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Roboto&display=swap');
+* {
+	box-sizing:border-box; /* On spécifie que la largeur (width) de chaque boîte comprend le padding et la bordure (par défaut, c'est seulement la largeur du contenu) */
+}
+
+html {
+	font-size: 62.5%; /* 1rem = 10px (la formule est 10/16*100) la taille par défaut étant 16px */
+    height: 100%;
+}
+
+body {
+	font-size: 1.8rem; /* on remets la taille du texte par défaut pour le body à 18px en utilisant les rem comme unité) */
+    margin: 0;
+	padding: 0;
+    height: auto;
+	line-height: 1.5;
+    background: linear-gradient(blue, 10%, black);
+    background-color: black;
+    background-size: cover;
+    background-size: auto auto;
+    background-repeat: no-repeat;
+    
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.introduction {
+    font-family: 'Bruno Ace SC', cursive;
+    color: antiquewhite;
+}
+
+#name, #submit {
+    width : 20rem;
+    padding:1em;
+    border-radius:10px;
+    border: 2px solid #4169e1;
+    background-color:#ffd500;
+    font-family: 'Roboto', sans-serif;
+    font-size:1.5rem;
+}
+
+#name:focus {
+    background-color:#ffffff;
+    border: 2px solid skyblue;
+    text-transform : lowercase;
+}
+#submit {
+    color:gray;
+    font-weight: bold;
+}
+#submit:hover {
+    background-color:#ffffff;
+    border: 2px solid skyblue;
+    cursor: pointer;
+    color:red;
+}
+
+.firstResult p {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+details {
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+details p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+}
+.intheSpoiler{
+    color: white;
+}
+.spoiler {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    overflow: none;
+    text-align: center;
+}
+
+summary {
+    cursor: pointer;
+    outline: none;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+summary:hover {
+    color:brown;
+}
+
+.warning {
+    color:brown;
+}
+.redwarning {
+    color:red;
+    font-weight: bold;
+}
+  
+
+header img {
+    max-width : 30%;
+    display: block;
+    height: auto;
+    margin: auto;
+}
+.goodletter {
+    background-color: rgb(226, 43, 43);
+    display: inline-block;
+    padding:1rem;
+    text-transform: uppercase;
+    border-radius: 3rem;
+    line-height: 0.75;
+    font-size:2.5rem;
+    margin-right:1rem;
+    border : 1px solid black;
+}
+.almostgoodletter {
+    background-color: rgb(255, 234, 0);
+    display: inline-block;
+    padding:1rem;
+    text-transform: uppercase;
+    border-radius: 3rem;
+    line-height: 0.75;
+    font-size:2.5rem;
+    margin-right:1rem;
+    border : 1px solid black;
+}
+.notgood {
+    background-color: white;
+    display: inline-block;
+    padding: 1rem;
+    text-transform: uppercase;
+    border-radius: 3rem;
+    line-height: 0.75;
+    font-size:2.5rem;
+    margin-right:1rem;
+    border : 1px solid black;
+}
+.result p div{
+    font-family: 'Roboto', sans-serif;
+}
+.finalWord {
+    font-family: 'Roboto', sans-serif;
+    color:white;
+}
+.redbold {
+    color:red;
+    font-weight: bold;
+}
+.flexbox {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+footer p {
+    font-size: 1rem;
+    color:white;
+}
